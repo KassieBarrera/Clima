@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgIcono"
+        android:layout_width="80pt"
+        android:layout_height="80pt"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="395dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/imgIcono"
+        android:layout_marginTop="80pt"
+        android:text="Actualizacion"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_below="@id/imgIcono"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/txtCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Ciudad"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0°C"
+        android:textSize="15pt"
+        android:layout_marginLeft="100dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtViento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viento"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtNubes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuve"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtPrecion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presion"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtHumedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humedad"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtSunrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rice"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtSunset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunset"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+
+</LinearLayout>
+
+</RelativeLayout>
